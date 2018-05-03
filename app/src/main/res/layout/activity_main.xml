@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.talaat_nwegaa.tourguideapp.MainActivity">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_weight="0">
+        <ImageView
+            android:id="@+id/egypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flag"
+            android:scaleType="fitXY"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/ancient_Egypt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pyramids_main"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ancient_egypt"
+            android:textSize="20sp"
+            android:fontFamily="@font/galindo"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/activity_main_margin"
+            android:layout_marginRight="@dimen/activity_main_margin"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+<ImageView
+    android:id="@+id/islamic_egypt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/mosques"
+    android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/islamic_egypt"
+            android:fontFamily="@font/galindo"
+            android:textSize="20sp"
+            android:layout_marginLeft="@dimen/activity_main_margin"
+            android:layout_marginTop="@dimen/activity_main_margin"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/modern_egypt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cairo"
+        android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/modern_egypt"
+            android:fontFamily="@font/galindo"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="@dimen/activity_main_margin"
+            android:layout_marginLeft="@dimen/activity_main_margin"/>
+
+    </RelativeLayout>
+</LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+</RelativeLayout>

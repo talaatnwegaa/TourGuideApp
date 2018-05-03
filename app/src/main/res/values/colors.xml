@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1b5da1</color>
+    <color name="colorPrimaryDark">#1b5da1</color>
+    <color name="colorAccent">#1b5da1</color>
+    <color name="black">#000000</color>
+    <color name="ancient_egypt_background">#f2c436</color>
+    <color name="islamic_egypt_background">#f0b80f</color>
+    <color name="modern_egypt_background">#e1b40e</color>
+    <color name="link_color">#0132e3</color>
+
+
+
+
+</resources>
